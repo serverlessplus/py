@@ -64,6 +64,7 @@ def wrap_response(response: BaseResponse, options: dict):
     headers = {}
     for name, value in response.headers:
         headers[name] = value
+    headers['x-powered-by'] = 'serverlessplus'
 
     binary_mime_types = options.get('binary_mime_types', [])
     encoded = headers.get('content-type', 'text/plain') in binary_mime_types

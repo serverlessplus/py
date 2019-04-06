@@ -36,7 +36,7 @@ app = create_app(APP)
 def main_handler(event, context):
     environ = create_environ(event, context)
     response = get_response(app, environ)
-    return wrap_response(response, {})
+    return wrap_response(response, {'binary_mime_types': ['image/png']})
 ```
 
 ## 示例
