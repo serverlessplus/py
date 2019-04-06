@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'serverlessplus',
     packages = ['serverlessplus'],
-    version = '0.0.0',
+    version = '0.0.3',
     license='Apache-2.0',
     description = 'serverless your django/flask apps',
     author = 'chenhengqi',
@@ -11,7 +11,7 @@ setup(
     url = 'https://github.com/serverlessplus/py',
     keywords = ['serverless', 'django', 'flask'],
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: Apache Software License',
