@@ -1,4 +1,4 @@
-![](serverless+.png)
+![](https://github.com/serverlessplus/py/raw/master/serverless%2B.png)
 
 # Serverless + Python
 
