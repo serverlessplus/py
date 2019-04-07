@@ -4,17 +4,18 @@ with open('README.md', 'r') as file:
     long_description = file.read()
 
 setup(
-    name = 'serverlessplus',
-    packages = ['serverlessplus'],
-    version = '0.0.6',
+    name='serverlessplus',
+    packages=['serverlessplus'],
+    version='0.0.7',
     license='Apache-2.0',
-    description = 'serverless your django/flask apps',
-    author = 'chenhengqi',
-    author_email = 'ritchiechen@tencent.com',
-    long_description = long_description,
-    long_description_content_type = 'text/markdown',
-    url = 'https://github.com/serverlessplus/py',
-    keywords = ['serverless', 'scf', 'tencent-cloud', 'django', 'flask'],
+    author='chenhengqi',
+    author_email='ritchiechen@tencent.com',
+    description='serverless your django/flask apps',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    url='https://github.com/serverlessplus/py',
+    install_requires=['werkzeug'],
+    keywords=['serverless', 'scf', 'tencent-cloud', 'wsgi', 'django', 'flask'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
