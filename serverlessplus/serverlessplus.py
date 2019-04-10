@@ -53,7 +53,7 @@ def create_environ(event: dict, context: dict):
 
 def create_app(name: str):
     module, app_name = name.split(':')
-    return getattr(__import__(module), app_name)
+    return getattr(__import__(module, fromlist=['*']), app_name)
 
 
 def get_response(app: callable, environ: dict):

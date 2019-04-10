@@ -6,7 +6,7 @@ with open('README.md', 'r') as file:
 setup(
     name='serverlessplus',
     packages=['serverlessplus'],
-    version='0.0.7',
+    version='0.0.8',
     license='Apache-2.0',
     author='chenhengqi',
     author_email='ritchiechen@tencent.com',
